@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(20, 20, 20);
+    border: dotted rgb(251, 251, 251) 3px;
+    color: #fbfbf8;
+    font-family: monospace;    
+}
+
+header {
+    display: flex;
+    font-size: 36px;  
+    padding: 5px;  
+}
+
+header h1 {
+    display: flex;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 60px 20px 0px 20px;
+    font-size: 30px;
+}
+
+.hero {
+    width: 100%;
+    max-height: 250px;
+}
