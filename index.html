@@ -3,81 +3,101 @@
     <head>
         <meta charset="UTF-8">
         <title>Brian's Portfolio</title>
-        <link rel="stylesheet" type="text/css" href="./assets/css/style2.css">
+        <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
     </head>
 
     <body>
-    <!-- Header contains the name of the -->
+        <!-- Header contains the name of the subject-->
         <header>
             <h1>Sa Uk Brian Chung</h1>
-            <nav id="main-nav">
-                <ul>
-                    <a href="#">About me</a>
-                    <a href="#">Portfolio</a>
-                    <a href="#">Contact</a>
-                </ul>
-            </nav>    
         </header>
+        <!-- Nav contain links that direct users to the corresponding part of the page -->
+        <nav id="main-nav">
+            <ul>
+                <a href="#about-me-container">About me</a>
+                <a href="#portfolio-container">Project Portfolio</a>
+                <a href="#contact-info-container">Contact Info</a>
+                <a href="#hours-of-operation-container">Hours of Operation</a>
+            </ul>
+        </nav> 
 
-
-
+        <!-- This is an area for an image that separates the header and nav bar from the rest of the page -->
         <section>
             <img src="./assets/images/marble-finish.webp" alt="White marble texture" class="hero">
         </section>
 
 
-        <main class="main-section">
-            <h3 class="section-header">About me</h3>
+        <!-- This area contains the  -->
+        <section id="about-me-container">
+            <h3>About me</h3>
             <p>This is about ME!!</p>
-        </main>
+        </section>
 
-        <section class="main-section">
-            <h3 class="section-header">Portfolio</h3>
+        <main id="portfolio-container">
+            <h3>Portfolio</h3>
 
                 <ul>
-                    <div class="project-banner">
-                        <h5>PROJECT1</h5>
-                        <img href="./assets/images/wonder-brian.jpeg" alt="Website">
-                        <p>This project was my FACE!</p>
-                    </div>
+
+                    <li id="featureProject" class="portfolioProj">
+                        <div class="project-banner">
+                            <h5>PROJECT1</h5>
+                            <img href="./assets/images/wonder-brian.jpeg" alt="Website">
+                            <p>This project was my FACE!</p>
+                        </div>
+                    </li>
+
+                    <li class="portfolioProj">
+                        <div class="project-banner">
+                            <h5>PROJECT1</h5>
+                            <img href="./assets/images/wonder-brian.jpeg" alt="Website">
+                            <p>This project was my FACE!</p>
+                        </div>
+                    </li>
+
+                    <li class="portfolioProj">
+                        <div class="project-banner">
+                            <h5>PROJECT1</h5>
+                            <img href="./assets/images/wonder-brian.jpeg" alt="Website">
+                            <p>This project was my FACE!</p>
+                        </div>
+                    </li>
+
+                    <li class="portfolioProj">
+                        <div class="project-banner">
+                            <h5>PROJECT1</h5>
+                            <img href="./assets/images/wonder-brian.jpeg" alt="Website">
+                            <p>This project was my FACE!</p>
+                        </div>
+                    </li>
+
+                    <li" class="portfolioProj">
+                        <div class="project-banner">
+                            <h5>PROJECT1</h5>
+                            <img href="./assets/images/wonder-brian.jpeg" alt="Website">
+                            <p>This project was my FACE!</p>
+                        </div>
+                    </li>
                     
-                    <div class="project-banner">
-                        <h5>PROJECT2</h5>
-                        <img href="./assets/images/wonder-brian.jpeg" alt="Website">
-                        <p>This project was my FACE!</p>
-                    </div>
-                                        
-                    <div class="project-banner">
-                        <h5>PROJECT3</h5>
-                        <img href="./assets/images/wonder-brian.jpeg" alt="Website">
-                        <p>This project was my FACE!</p>
-                    </div>  
 
-                    <div class="project-banner">
-                        <h5>PROJECT4</h5>
-                        <img href="./assets/images/wonder-brian.jpeg" alt="Website">
-                        <p>This project was my FACE!</p>
-                    </div>     
-
-                    <div class="project-banner">
-                        <h5>PROJECT5</h5>
-                        <img href="./assets/images/wonder-brian.jpeg" alt="Website">
-                        <p>This project was my FACE!</p>
-                    </div>
 
                 </ul>
         </section>
 
-        <footer class="main-section">
-            <h3 class="section-header">Contact</h3>
+        <section id="contact-info-container">
+            <h3>Contact</h3>
                 <ul>
                     <a href="tel:201-661-1214">Call/Text Now</a>
                     <a href = "mailto: chungsauk95@gmail.com">Send Email</a>
                     <a href="#">Git Hub</a>
                     <a href="#">LinkedIn</a>
                 </ul>
+        </section>
 
+        <footer id="hours-of-operation-container">
+            <h5>Hours of Operation</h5>
+            <p>All Day Every Day</p>
         </footer>
+        
     </body>
 
     </html>
