@@ -1,26 +1,27 @@
 body {
-    background-color: rgb(20, 20, 20);
     border: dotted rgb(251, 251, 251) 3px;
-    color: #fbfbf8;
+    margin: 10px 10px;
     font-family: monospace;    
 }
 
 header {
     display: flex;
-    font-size: 36px;  
-    padding: 5px;  
-}
-
-header h1 {
-    display: flex;
+    font-size: 30px;  
+    justify-content: center;
 }
 
 nav {
     display: flex;
     flex-wrap: wrap;
-    padding: 60px 20px 0px 20px;
-    font-size: 30px;
+    padding: 0 0 0 30%;
+    font-size: 20px;
 }
+
+nav ul {
+    background-color: white;
+    border: 5px black dotted;
+}
+
 
 .hero {
     width: 100%;
