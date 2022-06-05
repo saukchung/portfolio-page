@@ -21,9 +21,36 @@ nav ul {
     background-color: white;
     border: 5px black dotted;
 }
+h3 {
+    font-size: 40px;
+}
 
+h5 {
+    font-size: 30px;
+}
 
 .hero {
     width: 100%;
     max-height: 250px;
+}
+
+.self-picture {
+    width: 500px;
+    height: 200px;
+}
+
+.project-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+#about-me-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#portfolio-container {
+    display: flex;
+    flex-wrap: wrap;
 }
